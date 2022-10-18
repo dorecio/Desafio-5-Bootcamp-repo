@@ -25,13 +25,18 @@ textarea {
     white-space: pre-wrap;
 }
 
+.lead {
+    font-family: cursive;
+}
+
 .time-block {
     text-align: center;
     border-radius: 15px;
+   
 }
 
 .row {
-    white-space: pre-wrap;
+    white-space: pre-wrap; 
     height: 80px;
     border-top: 1px solid white;
 }
@@ -43,17 +48,17 @@ textarea {
 }
 
 .past {
-    background-color: #d3d3d3;
+    background-color: #d3d3d3 !important;
     color: white;
 }
 
 .present {
-    background-color: #ff6961;
+    background-color: #ff6961 !important;
     color: white;
 }
 
 .future {
-    background-color: #77dd77;
+    background-color: #77dd77 !important;
     color: white;
 }
 
@@ -69,3 +74,12 @@ textarea {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
 }
+
+
+.form-control {
+    line-height: 5;
+}
+
+
+
+
