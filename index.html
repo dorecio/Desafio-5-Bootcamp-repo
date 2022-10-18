@@ -9,22 +9,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Planificador de días de trabajo </title>
 </head>
 
 <body>
-    <header class="jumbotron">
-        <h1 class="display-3">Planificador de días de trabajo </h1>
-        <p class="lead">Una aplicación de calendario simple para programar su día de trabajo</p>
-        <p id="currentDay" class="lead"></p>
-    </header>
-    <div class="container">
-        <!-- Timeblocks go here -->
+    <!--Se crea en body un contenedor general-->
+    <div class="container-fluid">
+        <!--Encabezado de agenda-->
+        <header class="jumbotron">
+            <h1 class="display-3 ">Planificador de días de trabajo </h1>
+            <p class="lead ">Una aplicación de calendario simple para programar su día de trabajo</p>
+            <p id="currentDay" class="lead"></p>
+        </header>
+        <!--Cuerpo de la agenda-->
+        <div class="container" id="container"></div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 
 </html>
